@@ -1,4 +1,5 @@
 const element = document.getElementById("starSigns");
+const getNewJoke = document.getElementById("goButton");
 window.addEventListener("load", loadInpirationQuote());
 window.addEventListener("load", horoscopeToday);
 window.addEventListener("load", loadPublicIP);
@@ -6,6 +7,7 @@ window.addEventListener("load", getJokes);
 
 
 element.addEventListener("click", horoscopeToday);
+getNewJoke.addEventListener("click", getJokes);
 
 
 function loadInpirationQuote() {

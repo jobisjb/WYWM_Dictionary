@@ -90,10 +90,17 @@ body {
   border-radius: 3% / 50%;
 }
 #goButton{
-  height: 2em;
   width: fit-content;
+  height: auto;
   border-color: #f1f1f1;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bolder;
   margin-top: 1%;
+  cursor: pointer;
+}
+#goButton:hover{
+  background-color: #eee;
 }
 
 /* Fake image, just for this example */
@@ -106,7 +113,6 @@ body {
 
 /* Footer */
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;

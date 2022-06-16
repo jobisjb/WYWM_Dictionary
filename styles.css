@@ -8,14 +8,6 @@ body {
   margin: 0;
 }
 
-/* Header/logo Title */
-.header {
-  padding: 60px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-}
-
 /* Style the top navigation bar */
 .navbar {
   display: flex;
@@ -48,6 +40,12 @@ body {
   flex: 30%;
   background-color: #f1f1f1;
   padding: 20px;
+  text-align: center;
+}
+#two{
+  text-align: left;
+  padding: 3%;
+  margin-top: 5%;
 }
 
 /* Main column */
@@ -56,12 +54,36 @@ body {
   background-color: white;
   padding: 20px;
 }
+.wordSearch{
+  width: 100%;
+  text-align: center;
+}
+#searchBar{
+  display: inline-block;
+  width: 50%;
+  height: 2.5em;
+  border-color: #f1f1f1;
+  border-radius: 3% / 50%;
+}
+#starSigns{
+  min-width: fit-content;
+  display: inline-block;
+  border-color: #f1f1f1;
+  border-radius: 3% / 50%;
+}
+#goButton{
+  height: 2em;
+  width: fit-content;
+  border-color: #f1f1f1;
+  margin-top: 1%;
+}
 
 /* Fake image, just for this example */
 .fakeimg {
-  background-color: #aaa;
+  background-color: #ddd;
   width: 100%;
-  padding: 20px;
+  height: auto;
+  padding: .5%;
 }
 
 /* Footer */

@@ -47,16 +47,34 @@ body {
   padding: 3%;
   margin-top: 5%;
 }
+ #four{
+  margin-top: 1%;
+  vertical-align: middle;
+ }
+ #five{
+  margin-top: 1%;
+  
+ }
 
 /* Main column */
 .main {
   flex: 70%;
   background-color: white;
   padding: 20px;
-}
-.wordSearch{
-  width: 100%;
   text-align: center;
+}
+.coverInfo{
+  width: 100%;
+  padding-top: .1%;
+  padding-bottom: .1%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #ddd;
+  color: #ddd;
+}
+
+.coverInfo:hover{
+  background-color: #333;
 }
 #searchBar{
   display: inline-block;
@@ -88,6 +106,10 @@ body {
 
 /* Footer */
 .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   padding: 20px;
   text-align: center;
   background: #ddd;
